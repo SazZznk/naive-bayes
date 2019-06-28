@@ -32,6 +32,11 @@ clf.fit(features_train,labels_train)
 pred=clf.predict(features_test,labels_test)
 print(pred)
 
+if pred==0:
+    print("the author is sara")
+else:
+    print("the author is chris")
+
 
 #########################################################
 
